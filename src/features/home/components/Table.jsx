@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Table() {
+    
     return (
         <table className='border-black w-full text-center'>
             <tbody className='w-full'>
