@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 const useDegree = create((set) => ({
-  degree: '',
+  degree: 2,
   setDegree: (currentValue) => set(() => ({ number: currentValue })),
 }));
 
